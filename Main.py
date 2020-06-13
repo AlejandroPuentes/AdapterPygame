@@ -1,9 +1,9 @@
 import sys, pygame
 from Character import mainCharacter
 
-SCREEN_WIDTH = 1000
-SCREEN_HEIGHT = 1000
-CENTER = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2) 
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 800
+CENTER = (200, 200) 
 BLACK = 0,0,0
 DELAY = 80
 
