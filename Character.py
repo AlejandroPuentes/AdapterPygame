@@ -3,6 +3,13 @@ from pygame import *
 from Util import *
 
 
+
+
+
+
+
+
+
 class Character(pygame.sprite.Sprite):
 
     def __init__(self):
@@ -35,11 +42,24 @@ class Character(pygame.sprite.Sprite):
         pass
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 class mainCharacter(Character):
 
     sprites = [
                 ['Static/R0.png', 'Static/R1.png', 'Static/R2.png', 'Static/R3.png',
                  'Static/R4.png', 'Static/R5.png'],
+
                 ['Static/L0.png', 'Static/L1.png', 'Static/L2.png', 'Static/L3.png', 
                 'Static/L4.png', 'Static/L5.png']
                                                                                     ]
@@ -64,3 +84,7 @@ class mainCharacter(Character):
         self.images = loadImages(sprites)
         self.image = self.images[self.dir][self.current]
         self.rect = self.image.get_rect()
+
+
+
+

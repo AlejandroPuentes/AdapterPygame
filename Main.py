@@ -30,3 +30,4 @@ while playing:
     character.draw(screen)
     pygame.time.delay(DELAY)
     pygame.display.flip()
+    
