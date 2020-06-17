@@ -34,6 +34,12 @@ class Character(pygame.sprite.Sprite):
     def setImages(self, sprites):
         pass
 
+    def setImage(self, image):
+        self.image = image
+
+    def setRectLeft(self, pos):
+        self.rect.left = pos
+
 
 class mainCharacter(Character):
 
@@ -47,6 +53,8 @@ class mainCharacter(Character):
     def __init__(self):
         Character.__init__(self)
         self.setImages(self.sprites)
+        self.image = self.images[self.dir][self.current]
+        self.rect = self.image.get_rect()
 
 
 
@@ -62,5 +70,4 @@ class mainCharacter(Character):
 
     def setImages(self, sprites):
         self.images = loadImages(sprites)
-        self.image = self.images[self.dir][self.current]
-        self.rect = self.image.get_rect()
+        
