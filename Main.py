@@ -1,5 +1,6 @@
 import sys, pygame
 from Character import mainCharacter
+from AdapterCharacter import AdapterCharacter
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 800
@@ -8,7 +9,7 @@ BLACK = 0,0,0
 DELAY = 80
 
 
-character = mainCharacter()
+character = AdapterCharacter()
 
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
