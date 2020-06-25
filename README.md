@@ -14,10 +14,13 @@
 <p align= "Justify">Este programa simula el movimiento de dos objetos 2d: uno original y otro adaptado, que pueden interactuar bajo controles de movimiento en sentido derecha e izquierda. Aplicativo creado con base en el patrón estructural adapter.</p>
 
 **Objeto Original**
-![alt text](https://github.com/jgruizba/AdapterPygame/blob/master/bomber.jpeg)
+
+![alt text](https://github.com/jgruizba/AdapterPygame/blob/master/origina.jpeg)
 
 **Objeto Adaptado**
-![alt text](https://github.com/jgruizba/AdapterPygame/blob/master/origina.jpeg)
+
+![alt text](https://github.com/jgruizba/AdapterPygame/blob/master/bomber.jpeg)
+
 
 <p align= "Justify">Para escoger el objeto a usar debe dirigirse a Main.py y donde esta definida la variable character escoger el tipo: MainCharacter() que representa el objeto original o AdapterCharacter() que representa el objeto adaptado.</p>
 
