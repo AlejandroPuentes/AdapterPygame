@@ -90,13 +90,4 @@ class mainCharacter(Character):
 
     def setImages(self, sprites):
         self.images = loadImages(sprites)
-<<<<<<< HEAD
-        self.image = self.images[self.dir][self.current]
-        self.rect = self.image.get_rect()
-
-
-
-
-=======
         
->>>>>>> a1a5b44a3b2e45096377e6632f129a5fa1097ebe

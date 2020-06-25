@@ -9,7 +9,7 @@ BLACK = 0,0,0
 DELAY = 80
 
 
-character = AdapterCharacter()
+character = mainCharacter()
 
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
